@@ -1,8 +1,30 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    :root {
+        --white: #fff;
+        --black: #101010;
+        --dark: #191919;
+        --gray: rgba(1,1,1,0.6);
+        --lite: rgba(255,255,255,0.6);
+        --primary: linear-gradient(145deg,#f81f01,#ee076e);
+        --primary_dark: #f81f01;
+        --secondary: #154b87;
+    }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+    body {
+        background: url("https://bsmart-eg.com/assets/img/services/e-commerce.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        position: relative;
+    }
+</style>
+
+<header class="flex">
+    <div class="container">
+        <a href="#" class="btn btn-outline-primary" style="margin-top: 50px; font-size:4em;color:white">Products</a>
+    </div>
+</header>
