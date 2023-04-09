@@ -20,7 +20,8 @@ namespace eCommerce.Service.Service
                 Count = dto.Count,
                 CreatedAt = DateTime.UtcNow,
                 FirmName = dto.FirmName,
-                Price = dto.Price
+                Price = dto.Price,
+                UserId = dto.UserId
             };
 
             await productRepository.InsertAsync(product);

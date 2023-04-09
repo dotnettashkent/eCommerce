@@ -1,4 +1,5 @@
 ﻿using eCommerce.Domain.Commons;
+using eCommerce.Domain.Entities.Users;
 
 namespace eCommerce.Domain.Entities.Products
 {
@@ -10,5 +11,8 @@ namespace eCommerce.Domain.Entities.Products
         public string Category { get; set; }
         public int Count { get; set; }
         public decimal Price { get; set; }
+
+        public long UserId { get; set; }
+        public User User { get; set; }
     }
 }
