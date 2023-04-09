@@ -1,5 +1,5 @@
 ﻿using eCommerce.Domain.Commons;
-using eCommerce.Domain.Entities.Enums;
+using eCommerce.Domain.Enums;
 using System.ComponentModel.DataAnnotations;
 
 namespace eCommerce.Domain.Entities.Users

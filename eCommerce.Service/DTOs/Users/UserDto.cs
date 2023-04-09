@@ -1,5 +1,5 @@
 ﻿using eCommerce.Domain.Commons;
-using eCommerce.Domain.Entities.Enums;
+using eCommerce.Domain.Enums;
 
 namespace eCommerce.Service.DTOs.Users
 {
